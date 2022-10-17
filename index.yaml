@@ -2,6 +2,20 @@ apiVersion: v1
 entries:
   cluster-proportional-autoscaler:
   - apiVersion: v2
+    appVersion: 1.8.6
+    created: "2022-10-17T21:00:38.198308814Z"
+    description: This chart is used to deploy an instance of the cluster-proportional-autoscaler.
+    digest: 93d95ca751987fbd5f05795b52a55c6b02d76636eb6e534769b88317f3e6fe2f
+    maintainers:
+    - name: krmichel
+      url: https://github.com/krmichel
+    - name: d-mcd
+      url: https://github.com/d-mcd
+    name: cluster-proportional-autoscaler
+    urls:
+    - https://github.com/krmichel/cluster-proportional-autoscaler/releases/download/helm-chart-cluster-proportional-autoscaler-1.0.1/cluster-proportional-autoscaler-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v2
     appVersion: 1.8.4
     created: "2021-07-13T01:36:01.696059961Z"
     description: This chart is used to deploy an instance of the cluster-proportional-autoscaler.
@@ -15,4 +29,4 @@ entries:
     urls:
     - https://github.com/krmichel/cluster-proportional-autoscaler/releases/download/helm-chart-cluster-proportional-autoscaler-1.0.0/cluster-proportional-autoscaler-1.0.0.tgz
     version: 1.0.0
-generated: "2021-07-13T01:36:01.696065261Z"
+generated: "2022-10-17T21:00:38.198326315Z"
